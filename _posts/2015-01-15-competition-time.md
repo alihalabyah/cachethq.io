@@ -8,7 +8,7 @@ author: james
 
 Yesterday we kicked off with our first competition! By signing up to our mailing list, you're automatically in with a chance to win some of our stickers!
 
-![CachetHQ Stickers](/assets/uploads/stickers.jpg)
+![CachetHQ Stickers]({{ site.url }}/assets/uploads/stickers.jpg)
 
 You can sign up to our mailing list either by using your [Twitter account](https://twitter.com/cachethq/status/555041108158185472) or by filling in the form below with your email address:
 
