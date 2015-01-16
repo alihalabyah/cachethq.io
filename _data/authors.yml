@@ -38,17 +38,6 @@ grahamcampbell:
         url: graham@mineuk.com
       - title: github
         url: https://github.com/GrahamCampbell
-thomas:
-  display_name: Thomas Coleman
-  position: Developer
-  gravatar: f1caa5a80e83fad625ff3963a14ce3cf
-  email: tom@ilikeprograms.com
-  web: http://ilikeprograms.com
-  social:
-    - title: envelope
-      url: mailto:tom@ilikeprograms.com
-    - title: github
-      url: https://github.com/ilikeprograms
 manavo:
   display_name: Philip Manavopoulos
   position: Developer
