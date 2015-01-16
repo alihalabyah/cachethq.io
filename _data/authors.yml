@@ -4,7 +4,7 @@ james:
   position: Lead Developer
   gravatar: 13616b6551a3854378f9e6fea964e519
   email: jbrooksuk@me.com
-  web: http://james-brooks.uk
+  web: https://james-brooks.uk
   social:
     - title: envelope
       url: mailto:jbrooksuk@me.com
@@ -14,7 +14,7 @@ james:
       url: https://github.com/jbrooksuk
 joecohens:
   display_name: Joe Cohen
-  position: Developer
+  position: Developer and Donator
   gravatar: b19a7e3567c963fe3116e140ab12b8c0
   email: joseph.cohen@dinkbit.com
   web: http://joecohens.com
