@@ -38,25 +38,3 @@ grahamcampbell:
         url: graham@mineuk.com
       - title: github
         url: https://github.com/GrahamCampbell
-manavo:
-  display_name: Philip Manavopoulos
-  position: Developer
-  gravatar: 604a97350ee8fa8940927e2a01c74038
-  email: manavo@gmail.com
-  web: http://manavo.com
-  social:
-    - title: envelope
-      url: mailto:manavo@gmail.com
-    - title: github
-      url: https://github.com/manavo
-ehesp:
-  display_name: Elliot Hesp
-  position: Developer
-  gravatar: 215db0deb447d97a916ea780771b8c64
-  email: elliot.hesp@gmail.com
-  web: https://elliothesp.co.uk
-  social:
-    - title: envelope
-      url: mailto:elliot.hesp@gmail.com
-    - title: github
-      url: https://github.com/ehesp
