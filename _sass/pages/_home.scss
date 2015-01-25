@@ -1,9 +1,19 @@
 #headerwrap {
     background-color: $cachet-base-medium;
-    min-height: 550px;
+    min-height: 400px;
     padding-top: 100px;
     padding-bottom: 0px;
     text-align: center;
+}
+
+#headerwrap h1 {
+    font-size: 3.5em;
+    color: $cachet-base-dark;
+    margin-bottom: 25px;
+}
+
+#headerwrap h4 {
+    font-size: 1.4em;
 }
 
 #headerwrap h3, h4 {
@@ -11,13 +21,16 @@
     font-weight: 400;
 }
 
-#headerwrap h1 {
-    color: $cachet-base-dark;
-    margin-bottom: 25px;
-}
-
 #headerwrap .img-responsive {
     margin: 0 auto;
+}
+
+.btn-download > i {
+    margin-right: 10px;
+}
+
+.btn-demo > i {
+    margin-left: 10px;
 }
 
 #download-now {
@@ -25,8 +38,12 @@
 }
 
 .features {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 80px;
+
+    h2 {
+        color: $cachet-gray-darker;
+    }
 
     h4 {
         font-weight: 700;
@@ -42,5 +59,9 @@
         min-height: 120px;
 
     }
+}
 
+.newsletter {
+    background-color: $cachet-base-medium;
+    padding: 50px 0;
 }
