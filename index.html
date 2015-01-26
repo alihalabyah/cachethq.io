@@ -7,61 +7,19 @@ permalink: /
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h1>Service status updates improved</h1>
+                <h1><span id="js-rotating">A beautiful, A useful, A friendly</span> status page</h1>
                 <h4>An open source status page system written in PHP</h4>
                 <div id="download-now">
-                    <a class="btn btn-success btn-lg" href="https://github.com/cachethq/Cachet/archive/master.zip">
-                        <i class='icons ion-ios-cloud-download'></i> Download
+                    <a class="btn btn-success btn-lg btn-download" href="https://github.com/cachethq/Cachet/archive/master.zip">
+                        <i class='icons ion-android-download'></i> Start using Cachet now
                     </a>
-                    <a class="btn btn-default btn-lg" target="_blank" href="https://status.cachethq.io">
-                        <i class="icons ion-flag"></i> Demo
+                    <a class="btn btn-default btn-lg btn-demo" target="_blank" href="https://status.cachethq.io">
+                        See a live demo
+                        <i class="icons ion-android-arrow-forward"></i>
                     </a>
                 </div>
                 <!-- Place this tag where you want the button to render. -->
                 <a class="github-button" href="https://github.com/cachethq/Cachet" data-count-href="/cachethq/Cachet/stargazers" data-count-api="/repos/cachethq/Cachet#stargazers_count">Star</a>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2">
-
-              <div id="screenshots-carousel" class="carousel slide" data-ride="carousel">
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img src="{{ "/assets/img/main-interface.png"  | prepend: site.baseurl }}" alt="Main Cachet Interface Screenshot" />
-                    <div class="carousel-caption">
-                      <p>Simple Status Update interface, clear and crisp.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="{{ "/assets/img/dashboard-interface.png"  | prepend: site.baseurl }}" alt="Main Cachet Dashboard Interface Screenshot" />
-                    <div class="carousel-caption">
-                      <p>A beautiful dashboard.</p>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <img src="{{ "/assets/img/interface.png"  | prepend: site.baseurl }}" alt="Dashboard Layout Screenshot" />
-                    <div class="carousel-caption">
-                      <p>Easy to use, and concise management panel.</p>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#screenshots-carousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#screenshots-carousel" data-slide-to="1"></li>
-                  <li data-target="#screenshots-carousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#screenshots-carousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#screenshots-carousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
             </div>
         </div><!-- /row -->
     </div> <!-- /container -->
@@ -69,6 +27,16 @@ permalink: /
 
 <div class="features">
     <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2>Create a beautiful, status page</h2>
+                <p>Notify your users about your services status in a beautiful and responsive way.</p>
+            </div>
+        </div>
+        <img src="{{ "/assets/img/main-interface.jpg"  | prepend: site.baseurl }}" alt="Main Cachet Interface Screenshot" />
+
+        <hr>
+
         <div class="row centered">
             <div class="col-sm-3">
                 <i class="icons ion-social-octocat"></i>
@@ -89,7 +57,7 @@ permalink: /
             <div class="col-sm-3">
                 <i class="icons ion-eye"></i>
                 <div class='feature'>
-                    <h4>Beautiful</h4>
+                    <h4>Customizable</h4>
                     <p>Cachet is built to be beautiful, not only that, but you can apply your own stylesheet to further customize the status page to your liking.</p>
                 </div>
                 <p><br/><a href="https://status.cachethq.io" target="_blank" class="btn btn-theme">More Info</a></p>
@@ -101,6 +69,30 @@ permalink: /
                     <p>We've bundled and support multiple languages!</p>
                 </div>
                 <p><br/><a href="https://crowdin.com/project/cachet" target="_blank" class="btn btn-theme">Help translate Cachet</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <img src="{{ "/assets/img/barry.png"  | prepend: site.baseurl }}" alt="Main Cachet Interface Screenshot" />
+            </div>
+            <div class="col-sm-6">
+                <h4>Sign up for our newsletter and get notified on new features.<h4>
+                <p>We'll never send spam. Promise.</p>
+                <form role="form" action="//cachethq.us9.list-manage.com/subscribe/post?u=654f358550ef074d6601475cd&amp;id=711cf8b66d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                    <div class="form-group">
+                        <label for="mce-EMAIL" class='sr-only'>Email Address  <span class="asterisk">*</span></label>
+                        <input type="email" value="" required name="EMAIL" class="form-control" id="mce-EMAIL">
+                    </div>
+                    <div class='form-group'>
+                        <button type="submit" class='btn btn-theme' name="subscribe" id="mc-embedded-subscribe" class="button">Sign up</button>
+                    </div>
+                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_654f358550ef074d6601475cd_711cf8b66d" tabindex="-1" value=""></div>
+                </form>
             </div>
         </div>
     </div>
